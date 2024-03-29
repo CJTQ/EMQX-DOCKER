@@ -60,8 +60,8 @@ services:
       - 18084:18084
       - 1883:1883
       - 8883:8883
-      - 8083:8083
-      - 8084:8084
+      - 8073:8083
+      - 8074:8084
     volumes:
       - vol-emqx-data:/opt/emqx/data
       - vol-emqx-etc:/opt/emqx/etc
